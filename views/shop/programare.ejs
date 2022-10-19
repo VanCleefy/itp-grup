@@ -1,0 +1,48 @@
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/navigation.ejs') %> 
+<!-- about -->
+<div  class="about">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="titlepage">
+                <h2>About Our Car Service </h2>
+             </div>
+          </div>
+       </div>
+       <div class="container">
+          <div class="row">
+             <div class="col-md-10 offset-md-1">
+                <div class="about_img">
+                   <div class="about_box">
+                    <main>
+                        <form class="product-form" action="/form-programare" method="POST">
+                            <div class="form-control">
+                                <label for="title">Title</label>
+                                <input type="text" name="title" id="title" value="title">
+                            </div>
+                            <div class="form-control">
+                                <label for="imageUrl">Image URL</label>
+                                <input type="text" name="imageUrl" id="imageUrl" value="something">
+                            </div>
+                            <div class="form-control">
+                                <label for="price">Price</label>
+                                <input type="number" name="price" id="price" step="0.01" value="somevalue">
+                            </div>
+                            <div class="form-control">
+                                <label for="description">Description</label>
+                                <textarea name="description" id="description" rows="5"></textarea>
+                            </div>
+                           
+                
+                            <button class="btn" type="submit"></button>
+                        </form>
+                    </main>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- end about -->
